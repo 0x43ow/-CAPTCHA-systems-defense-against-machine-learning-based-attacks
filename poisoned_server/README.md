@@ -22,8 +22,11 @@ Testing:
     Testing function to test the model's performace depending on noise levels and used methods have been provided in 
     poisoned_testing_functions.py
     call the function in the script or import it 
-    example: 
+    example:
+    
         testing_function(method_analysis=True)
             to test individual method's performances on the same noise level
+            
+            
         testing_function(noise_analysis=True)
             to test the model's performance on different noise levels, using all the methods
