@@ -8,6 +8,7 @@ Images:
     https://drive.google.com/file/d/1QwURB3-exGxtPpPDcm5xEetmxh4f6u9L/view?usp=sharing
 
     make sure to put it in the same folder that has image_captcha_bot.py and defended_image_captcha_bot.py
+    
 Running the undefended system:
     Run image_captcha_bot.py 
    
