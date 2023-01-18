@@ -1,0 +1,6 @@
+torch
+pygame
+selenium
+PIL
+tensorflow
+numpy
