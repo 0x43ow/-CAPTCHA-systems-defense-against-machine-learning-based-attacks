@@ -13,10 +13,14 @@ Running:
 Testing:
     Testing functions to test the model's performace depending on noise levels and used methods have been provided in 
     JUST_testing_functions.py
-    call the functions in the script or import it 
-    example: 
+     call the functions in the script or import it. 
+  
+  
+  
         run_default(sample size)
             to test the model's perfomance on JUST's captcha, using the default bot
+        
+        
         run_3IP(sample size)
             to test the model's performance on JUST's captcha, using the 3 image polling method
 
