@@ -1,0 +1,25 @@
+
+  accuracy = 0.94%
+  attempts per second = 0.68
+  accesses per second = 0.64
+  
+  accuracy = 0.94%
+  attempts per second = 0.69
+  accesses per second = 0.64
+  
+  accuracy = 0.94%
+  attempts per second = 0.69
+  accesses per second = 0.64
+  
+  accuracy = 0.86%
+  attempts per second = 0.7
+  accesses per second = 0.6
+  
+  accuracy = 0.94%
+  attempts per second = 0.68
+  accesses per second = 0.64
+  
+  accuracy = 94.0%
+  attempts per second = 0.69
+  accesses per second = 0.65
+  
