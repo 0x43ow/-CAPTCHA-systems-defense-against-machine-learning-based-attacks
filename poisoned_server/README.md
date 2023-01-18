@@ -19,10 +19,10 @@ Running the bot:
     note that the server needs to be running inordor for the bot to function
 
 Testing:
-    Testing function to test the model's performace depending on noise levels and used methods have been provided in 
-    poisoned_testing_functions.py
+    Testing function to test the model's performace depending on noise levels and used methods have been provided in. 
+    poisoned_testing_functions.py,
     call the function in the script or import it 
-    example:
+
     
         testing_function(method_analysis=True)
             to test individual method's performances on the same noise level
