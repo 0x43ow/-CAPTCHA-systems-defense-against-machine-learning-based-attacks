@@ -1,0 +1,8 @@
+
+    total attempts = 500
+    accuracy: 90.8%
+    dog labeling accuracy: 0.9%
+    cat labeling accuracy: 0.92%
+    attempts per second = 4.194
+    successful attempts per second = 3.808
+    

@@ -1,0 +1,6 @@
+
+    total attempts = 483
+    accuracy: 0.0%
+    attempts per second = 3.23
+    successful attempts per second = 0.0
+    
