@@ -1,0 +1,85 @@
+body {
+    margin: 0; /*background: transparent url(../images/b_g2.jpg) repeat-x 50% 0;*/
+    font-family: Arial,Verdana,Sans-serif;
+    height: auto;
+    color: #999;
+    font-size: 8pt;
+    text-align: center;
+}
+
+#header { /*width: 1000px;*/ height:150px; margin-left: auto; margin-right: auto; background:transparent url(../images/CoursesSchedule-bg.jpg) bottom right repeat-x; border-color: #ccc; border-style: solid; border-width: 1px 1px 0px 1px; background-color: #FFF; color: #FF9900; }
+
+#line { width: 1000px; margin-left: auto; margin-right: auto; border-color: #ccc; border-style: solid; border-width: 0px 1px 1px 1px; }
+
+#main { /*width: 1000px;*/ margin-top: 0px; margin-left: auto; margin-right: auto; background-color: #FFF; font-size: 9pt; color: #666; /*background:transparent url(../images/B_G_Menu.jpg) repeat-y top right;    */ }
+
+#content { /*width: 960px;*/ /*float:left;*/ padding: 20px; text-align: justify; background-color: #FFF; }
+
+#nav { width: 144px; float: left; margin-right: 0px; margin-top: 5px; text-align: left; /*border:#CCC 1px solid;  */ background: transparent url(../images/B_G_Menu.jpg) top right; }
+
+#footer { height: 35px; /*width: 1000px;*/ margin-top: 0px; margin-left: auto; margin-right: auto; border-color: #ccc; border-style: solid; border-width: 0px 1px 1px 1px; background-color: #fff; font-size: 8pt; color: #999; text-align: center; background: transparent url(../images/footer.jpg) repeat-x; }
+
+.top-header {
+    background: #2c3e50;
+    padding: 20px;
+}
+
+.site-div {
+    color: #fff;
+    font-size: 20pt;
+    font-family: droid arabic kufi;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.site-div_En {
+    color: #fff;
+    font-size: 20pt;
+    font-family: persans;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.site-title a, .site-title a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.clear { clear: both; background: #fff; height: 1px; }
+
+.logo { width: 200px; float: left; text-align: left; padding: 15px 0 10px 15px; overflow: hidden; }
+
+.menu { width: auto; text-align: right; font-weight: bold; font-size: 12pt; padding: 35px 15px 0 0; float: right; overflow: hidden; }
+
+.left { width: 250px; float: left; margin: 10px 15px 10px 0; text-align: justify; overflow: hidden; }
+
+.mid { width: auto; padding: 10px 0 0 10px; margin-left: auto; margin-top: 0; overflow: hidden; }
+
+.navhead { width: 170px; height: 18px; padding: 3px 3px 0 5px; border: #ddd 1px solid; text-align: left; font-size: 8pt; background-color: #eee; color: #666; }
+
+.navitem { width: 172px; padding: 15px 3px 0 3px; border-bottom: #ddd 1px solid; border-right: #ddd 1px solid; border-left: #ddd 1px solid; font-size: 8pt; font-weight: normal; text-align: justify; }
+
+.img { border: 0; }
+
+ul { position: relative; margin: 0; list-style: none; padding: 0; }
+
+ul li { position: relative; margin: 0; padding: 0; }
+
+#loginDiv { text-align: center; }
+
+#mainTable { width: 100%; direction: rtl; }
+
+#mainTable td { width: 33%; direction: rtl; }
+
+#secondaryTable { width: 100%; direction: rtl; }
+
+#secondaryTable td { width: 33%; direction: rtl; }
+
+#gvSchedule { font-family: Tahoma; direction: rtl; }
+
+#gvSections { font-family: Tahoma; direction: rtl; }
+
+#innerTable { width: 100%; direction: rtl; vertical-align: text-top; border-width: 0px; }
+
+#innerTable td { width: 50%; vertical-align: text-top; font-family: Tahoma; direction: rtl; }

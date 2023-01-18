@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <div class="top-header" style="direction: rtl;">
+            <div style="float: right;">
+                <img src="JUST.png" alt="JUST Logo">
+            </div>
+            <div class="site-title" style="float: right;">
+                <div class="site-div">
+                    authentication page
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        <body>
+            <form>
+                <img id = "captcha" src="captcha.png">
+                </img>
+                <p> Solve</p>
+                <input id = "text bar" type="text" name="input" value="">
+                </input>
+                <input type="submit" value="send"> </input>
+                <button id="resetbutton" name="click" value="false" onclick="value=true"> get a new captcha</button>
+            </form>
+            <button  hidden id = "checker" name="check" value="false" disabled style="color:red; font-size: 20px"> WRONG ANSWER</button>
+            <table id="mainTable" style="background-color: white;">
+                <tbody><tr>
+                    <td colspan="3">
+                        <fieldset>
+                            <legend style="color: #000000; font-family: Tahoma; font-weight: bold;">Courses Schedule</legend>
+                            <table id="secondaryTable">
+                                <tbody><tr>
+                                    <td>
+                                        <fieldset>
+                                            <legend style="color: black; font-weight: bold; font-family: Tahoma;">Semesters&nbsp;</legend>
+                                            <select name="ctl00$contentPH$ddlSemester" onchange="javascript:setTimeout('__doPostBack(\'ctl00$contentPH$ddlSemester\',\'\')', 0)" id="ctl00_contentPH_ddlSemester" style="width:100%;">
+        <option value="-1">- Select Semester -</option>
+        <option selected="selected" value="202320221">First Semester 2022-2023</option>
+        <option value="202220213">Summer Semester 2021-2022</option>
+        <option value="202220212">Second Semester 2021-2022</option>
+        <option value="202220211">First Semester 2021-2022</option>
+    
+    </select>
+    
+                                            
+                                        </fieldset>
+                                    </td>
+                                    <td colspan="2">
+                                </td></tr>
+                                <tr>
+                                    <td>
+                                        <fieldset>
+                                            <legend style="color: black; font-weight: bold; font-family: Tahoma;">Faculty </legend>
+                                            <select name="ctl00$contentPH$ddlFaculty" onchange="javascript:setTimeout('__doPostBack(\'ctl00$contentPH$ddlFaculty\',\'\')', 0)" id="ctl00_contentPH_ddlFaculty" style="width:100%;">
+        <option selected="selected" value="-1">- Select Faculty -</option>
+        <option value="10">Medicine</option>
+        <option value="12">Applied Medical Sciences</option>
+        <option value="20">Engineering</option>
+        <option value="30">Pharmacy</option>
+        <option value="40">Nursing</option>
+        <option value="50">Dentistry</option>
+        <option value="60">Agriculture</option>
+        <option value="66">Veterinary Medicine</option>
+        <option value="70">Computer &amp; Information Technology</option>
+        <option value="80">Martial Sciences</option>
+        <option value="90">Science &amp; Arts</option>
+        <option value="122">Language Center</option>
+        <option value="124">Institute Of Nanotechnology</option>
+        <option value="220">Architecture And Design</option>
+    
+    </select>
+    
+                                            
+                                        </fieldset>
+                                    </td>
+                                    <td>
+                                        <fieldset>
+                                            <legend style="color: black; font-weight: bold; font-family: Tahoma;">Department </legend>
+                                            <select name="ctl00$contentPH$ddlDept" id="ctl00_contentPH_ddlDept" style="width:100%;">
+        <option selected="selected" value="-1">- Select Department -</option>
+    
+    </select>
+    
+                                            
+                                        </fieldset>
+                                    </td>
+                                    <td>
+                                        <fieldset>
+                                            <legend style="color: black; font-weight: bold; font-family: Tahoma;">Section Status 
+                                            </legend>
+                                            <select name="ctl00$contentPH$ddlSectionStatus" id="ctl00_contentPH_ddlSectionStatus" style="width:100%;">
+        <option selected="selected" value="-1">All</option>
+        <option value="1">Opened</option>
+        <option value="2">Closed</option>
+    
+    </select>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="3" style="text-align: center;">
+                                        <center>
+                                            
+                                            
+                                            
+                                            <br>
+                                            
+                                        </center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" style="height: 139px">
+                                        <div>
+    
+    </div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </fieldset>
+                    </td>
+                </tr>
+            </tbody></table>
+            <p style="font-size: 40pt; font-weight: bold; color: white;"><u> THIS IS A DEMO </u></p>
+        </body>
+        </head>
+</html>
