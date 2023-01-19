@@ -13,8 +13,10 @@ Running:
 
 
 Testing:
+
     Testing functions to test the model's performace depending on noise levels and used methods have been provided in 
     JUST_testing_functions.py
+    
      call the functions in the script or import it. 
   
   
