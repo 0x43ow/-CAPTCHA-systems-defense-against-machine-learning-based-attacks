@@ -6,7 +6,9 @@ The model:
 
 
 Running:
+
     Run JUST_browser_bot.py for the default version of the bot
+    
     Run JUST_browser_bot_3IP.py for the version that uses the 3 image polling method
 
 
