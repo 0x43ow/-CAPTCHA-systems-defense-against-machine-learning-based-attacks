@@ -28,9 +28,9 @@ Testing:
     call the function in the script or import it 
 
     
-        testing_function(method_analysis=True)
+        testing_function(method_analysis=True, sample size)
             to test individual method's performances on the same noise level
             
             
-        testing_function(noise_analysis=True)
+        testing_function(noise_analysis=True, sample size)
             to test the model's performance on different noise levels, using all the methods
