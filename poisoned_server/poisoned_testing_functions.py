@@ -5,8 +5,8 @@ from poisoned_model_run import predict
 """
 used to test model's performance against different noise levels and methods
 example:
-testing_function(method_analysis=True)
-testing_function(noise_analysis=True)
+testing_function(method_analysis=True, sample size)
+testing_function(noise_analysis=True, sample size)
 """
 
 
@@ -195,7 +195,7 @@ def get_captcha_image(poisoned, poisoning_ammount,method=0):
 
 
 
-def testing_function(method_analysis=False, noise_analysis=False):
+def testing_function(method_analysis=False, noise_analysis=False, sample_size = 100):
     """
     used to test the efficiency of methods or noise levels
     writes the info on test_log.txt
@@ -215,27 +215,26 @@ def testing_function(method_analysis=False, noise_analysis=False):
             selective_poisoning_ammount = selective_noise_levels[i]
             merg_poisoning_ammount = merg_noise_levels[i]
             correct = 0
-            for _ in range(100):
+            for _ in range(sample_size):
                #generate 100 captcha images and pass them to the model
                sol = get_captcha_image(poison,poison_ammount) 
                pred = predict('captcha.png')
                if pred == sol:
                     correct += 1
             #save the used noise levels and the model's accuracy and write them on test_log.txt
-            f.write(f'noise: {selective_poisoning_ammount} , {merg_poisoning_ammount} , {correct}%\n')
+            f.write(f'noise: poison ammount:{selective_poisoning_ammount},{merg_poisoning_ammount}, accuracy:{round((correct / sample_size) * 100,2)}%\n')
 
     elif method_analysis:
         #evaluate defense methods 
         methods = [1,2,3]
         for method in methods:
             correct = 0
-            for _ in range(100):
+            for _ in range(sample_size):
                 #generate 100 captcha images with the selected method and pass them too the model
                 sol = get_captcha_image(poison,poison_ammount,method)
                 pred = predict('captcha.png')
                 if pred == sol:
                     correct += 1
             #save the used method and the model's accuracy and write them on test_log.txt
-            f.write(f'method: {method} , {correct}%\n')
+            f.write(f'method: {method} , accuracy: {round((correct / sample_size) * 100,2)}%\n')
     f.close()
-    
